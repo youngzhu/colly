@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/gocolly/colly/v2"
+	"github.com/youngzhu/colly"
 )
 
 func main() {

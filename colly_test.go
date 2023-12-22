@@ -32,7 +32,7 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 
-	"github.com/gocolly/colly/v2/debug"
+	"github.com/youngzhu/colly/debug"
 )
 
 var serverIndexResponse = []byte("hello world\n")
@@ -1229,7 +1229,7 @@ func TestEnvSettings(t *testing.T) {
 func TestUserAgent(t *testing.T) {
 	const exampleUserAgent1 = "Example/1.0"
 	const exampleUserAgent2 = "Example/2.0"
-	const defaultUserAgent = "colly - https://github.com/gocolly/colly/v2"
+	const defaultUserAgent = "colly - https://github.com/youngzhu/colly"
 
 	ts := newTestServer()
 	defer ts.Close()
